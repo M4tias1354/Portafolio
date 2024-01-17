@@ -38,17 +38,23 @@
         </div>
     </header>
 
-    <nav>
-        <div class="icono">
-            <img class="logo" src="assets/img/restaurante/Picsart_22-05-09_15-24-06-414.png" alt="logo">
-        </div>
-        <div class="secciones">
-            <a href="pestañas/home/home.html">HOME</a>
-            <a href="pestañas/menu/menu.html">MENU</a>
-            <a href="pestañas/sobre_nosotros/sobre_nosotros.html">SOBRE NOSOTROS</a>
-            <a href="pestañas/carrito/carrito.html">CARRITO</a>
-        </div>
+    <nav id="nav" >
+        <div class="contenido-div">
+            <div class="icono">
+                <img class="logo" src="assets/img/restaurante/Picsart_22-05-09_15-24-06-414.png" alt="logo">
+            </div>
+            <div id="secciones" class="secciones">
+                <a href="pestañas/home/home.html">HOME</a>
+                <a href="pestañas/menu/menu.html">MENU</a>
+                <a href="pestañas/sobre_nosotros/sobre_nosotros.html">SOBRE NOSOTROS</a>
+                <a href="pestañas/carrito/carrito.html">CARRITO</a>
+            </div>
+            <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars fa" style="color: #ffffff;"></i>
+            </div>
+        </div> 
     </nav>
+    
 
     <main>
         <div>
@@ -93,6 +99,8 @@
           </div>
         </div>
       </footer>
+
+      <script src="script.js"></script>
 </body>
 
 </html>
