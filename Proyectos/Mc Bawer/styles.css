@@ -1,0 +1,382 @@
+@font-face {
+    font-family: "DK Uncle Edward";
+    src: url(assets/fonts/DK\ Uncle\ Edward.otf);
+}
+
+@font-face {
+    font-family: "Relington";
+    src: url(assets/fonts/Relington.otf);
+}
+
+
+body{
+    display: block;
+    margin: 0;
+    background-image: url("assets/img/restaurante/pexels-valeria-boltneva-1639562.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    position: relative;
+    padding-bottom: 350px;
+}
+
+
+
+/* Header */
+
+header{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0) ;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    justify-content: start;
+    color: white;
+    font-family: monospace;
+}
+
+.info h5{
+    font-size: 17px;
+}
+
+.rrss{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.rrss button{
+    background-color: rgb(104, 95, 90);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Nav */
+
+nav{
+    background-color: rgb(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones{
+    margin-top: 20px;
+    gap: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.icono{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.secciones a{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Main */
+
+main{
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+
+.titulo-h2{
+    color: wheat;
+    font-family: "DK Uncle Edward", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.titulo-h1{
+    color: white;
+    font-family: "Relington", Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.titulo-h3{
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.boton-menu{
+    border-radius: 25px;
+    width: 220px;
+    height: 70px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 5px;
+    color: white;
+    border-style: solid;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.footer-top {
+    margin-top: 107px;
+    padding: 50px 0 50px;
+    background-color: #1a1e21;
+    color: #7e7e7e;
+    font-size: 14px !important;  
+  }
+  
+  .footer-top p {
+    font-size: 14px;
+    margin-bottom: 0;
+  } 
+  
+  .footer-top-box {
+    margin: 30px auto;
+    overflow: hidden;
+  }
+  
+  .footer-top h4 {
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .footer-top-box li {
+    padding: 5px 0 10px 0;
+    border-bottom: 1px dotted #333;  
+  }
+  
+  .footer-top-box li:last-child {
+    border-bottom: 0!important;
+  }
+  
+  .footer-top-box h5 {
+    margin-bottom: 5px;  
+  }
+  
+  .footer-top-box .widget-img-thumb {
+    display: inline-block;
+    margin-right: 15px;
+    width: 60px;
+  }
+  
+  .footer-top-box .widget-content {
+    overflow: hidden;
+  }
+  
+  .footer-top-box .widget-date {
+    font-size: 12px;
+  }
+  
+  
+  .footer-top .input-holder input[type="email"] {
+    width: 100%;
+    display: inline-block;
+    border: 0;
+    border-radius: 0;
+    height: 39px;
+    padding: 10px 20px;  
+  }
+  
+  
+  .footer-top .input-holder input[type="submit"] {
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    line-height: 0;
+    text-indent: -999px;  
+  }
+  
+  .footer-top .submit-bgcolor {
+    background-color: #00aef0;
+  }
+  
+  
+  .footer-top ul li a {
+    color: #7e7e7e; 
+  }
+  
+  .footer-top ul li a:hover {
+    color: #fff;
+  }
+  
+  
+  .tag > a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  
+  
+  .contact-link-desc p {
+    font-size: 16px;  
+  }
+  
+  .contact-link-desc h5 {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .top-widget-contacts {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .widget-contact-info {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+  
+  .widget-contact-info:first-child {
+    padding-left: 0px; 
+  }
+  
+  .widget-contact-info:last-child {
+    padding-right: 125px;
+  }
+  
+  .widget-contact-info:nth-child(2) {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff; 
+  }
+  
+  
+  
+  
+  
+  
+  
+  .top-widget-contacts-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .top-widget-contacts-content {
+    font-size: 16px;
+    text-transform: capitalize; 
+  }
+  
+  .widget-contact-info i {
+    margin-right: 10px;
+    color: #fff; 
+  }

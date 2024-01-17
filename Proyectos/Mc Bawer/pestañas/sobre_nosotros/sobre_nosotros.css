@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "DK Uncle Edward";
+    src: url(../../assets/fonts/DK\ Uncle\ Edward.otf);
+}
+
+@font-face {
+    font-family: "Relington";
+    src: url(../../assets/fonts/Relington.otf);
+}
+
+
+body{
+    display: block;
+    margin: 0;
+    background-image: url("../../assets/img/restaurante/pexels-valeria-boltneva-1639562.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    position: relative;
+    padding-bottom: 350px;
+}
+
+
+
+
+/* Header */
+
+header{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0) ;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    justify-content: start;
+    color: white;
+    font-family: monospace;
+}
+
+.info h5{
+    font-size: 17px;
+}
+
+.rrss{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.rrss button{
+    background-color: rgb(104, 95, 90);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Nav */
+
+nav{
+    background-color: rgb(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones{
+    margin-top: 20px;
+    gap: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.icono{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.secciones a{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* MAIN */
+
+main.about-us {
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5; /* Gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #ff4500; /* Naranja oscuro */
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu-offerings {
+    flex: 1;
+    background-color: #faebd7; /* Almendra */
+}
+
+.menu-offerings ul li {
+    color: #ff4500; /* Naranja oscuro */
+}

@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "DK Uncle Edward";
+    src: url(../../assets/fonts/DK\ Uncle\ Edward.otf);
+}
+
+@font-face {
+    font-family: "Relington";
+    src: url(../../assets/fonts/Relington.otf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../../assets/fonts/Poppins-Bold.ttf);
+}
+
+
+body{
+    display: block;
+    margin: 0;
+    background-image: url("../../assets/img/restaurante/pexels-valeria-boltneva-1639562.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    position: relative;
+    padding-bottom: 350px;
+}
+
+
+
+/* Header */
+
+header{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0) ;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    justify-content: start;
+    color: white;
+    font-family: monospace;
+}
+
+.info h5{
+    font-size: 17px;
+}
+
+.rrss{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.rrss button{
+    background-color: rgb(104, 95, 90);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Nav */
+
+nav{
+    background-color: rgb(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones{
+    margin-top: 20px;
+    gap: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.icono{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.secciones a{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
+
+main {
+    background-color: white;
+    margin: 50px 50px 50px 50px;
+    border-radius: 20px;
+}
+
+.secciones-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 50px 50px 50px;
+}
+
+
+
+
+
+/* MENU HAMBURGUESA */
+
+.menu-hamburguesa{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.menu-hamburguesa:hover{
+    transform: translateY(-5%);
+}
+
+
+.imagen-hamburguesa img{
+    border-radius: 20px 20px 0 0;
+}
+
+.titulo-hamburguesa h2{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:"Poppins-Bold", Arial, Helvetica, sans-serif;
+}
+
+.titulo-hamburguesa p{
+    padding-left: 10px;
+    margin-top: 20px;
+    }
+
+
+
+
+
+/* MENU PICHANGA */
+
+.menu-pichanga{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.menu-pichanga:hover{
+    transform: translateY(-5%);
+}
+
+.imagen-pichanga img{
+    border-radius: 20px 20px 0 0;
+}
+
+.titulo-pichanga h2{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:"Poppins-Bold", Arial, Helvetica, sans-serif;
+}
+
+.titulo-pichanga p{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* MENU SANDWICH */
+
+.menu-sandwich{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.menu-sandwich:hover{
+    transform: translateY(-5%);
+}
+
+.imagen-sandwich img{
+    border-radius: 20px 20px 0 0;
+}
+
+.titulo-sandwich h2{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:"Poppins-Bold", Arial, Helvetica, sans-serif;
+}
+
+.titulo-sandwich p{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* MENU SALCHIPAPA */
+
+.menu-salchipapa{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.menu-salchipapa:hover{
+    transform: translateY(-5%);
+}
+
+.imagen-salchipapa img{
+    border-radius: 20px 20px 0 0;
+}
+
+.titulo-salchipapa h2{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:"Poppins-Bold", Arial, Helvetica, sans-serif;
+}
+
+.titulo-salchipapa p{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* MENU MIX CRISPY */
+
+.menu-mix-crispy{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.menu-mix-crispy:hover{
+    transform: translateY(-5%);
+}
+
+.imagen-mix-crispy img{
+    border-radius: 20px 20px 0 0;
+    width: 300px;
+    height: 300px;
+}
+
+.titulo-mix-crispy h2{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:"Poppins-Bold", Arial, Helvetica, sans-serif;
+}
+
+.titulo-mix-crispy p{
+    padding-left: 10px;
+    margin-top: 20px;
+}
